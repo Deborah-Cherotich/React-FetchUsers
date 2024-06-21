@@ -1,7 +1,12 @@
 import { useGetUsers } from "./hooks/useGetUsers";
 import UserCard from "../Atoms/UserCard";
 import './index.css'
+
+
 const Users = () => {
+
+    // <button type="submit">Login</button>
+
     const { users, loading, errors } = useGetUsers();
     console.log({ users });
     return (

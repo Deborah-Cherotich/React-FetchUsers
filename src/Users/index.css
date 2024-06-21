@@ -1,11 +1,6 @@
-/* .users{
-    display: flex;
-    gap: 50px;
 
-} */
 .users {
     display: grid;
-    /* grid-template-columns: repeat(8, 1fr); */
     grid-template-columns: repeat(8, 200px);
     grid-gap: 20px;
     padding: 20px;
@@ -24,7 +19,7 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+  
 }
 
 .users .user-card img {
